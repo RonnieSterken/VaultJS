@@ -1,0 +1,64 @@
+body {
+  margin: 0px;
+}
+
+.main-container {
+  width: 100%;
+  height: 100VH;
+  background-color: #302c4f;
+}
+
+.mainContainer {
+  background-color: #013d3d;
+  height: 90vh;
+  width: 100%;
+  color: white;
+  font-size: 26px;
+  font-family: 'Arial Black';
+  text-align: center;
+
+}
+
+#result {
+  position: absolute;
+  text-align: center;
+  top: 150px;
+}
+
+.numberContainerCSS {
+  background-color: #6ed7a8;
+  height: 100px;
+  text-align: center;
+}
+
+.numberContainerCSS button {
+  position: relative;
+  top: 20px;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 42%;
+  border: none;
+
+}
+
+#correct-code {
+  width: 50%;
+  height: 50px;
+  background-color: #68cc58;
+  float: left;
+
+
+}
+
+#wrong-code {
+  width: 50%;
+  height: 50px;
+  background-color: #e64e60;
+  float: right;
+
+}
+
+.backgroundRed {
+  background-color: #68cc58;
+}
